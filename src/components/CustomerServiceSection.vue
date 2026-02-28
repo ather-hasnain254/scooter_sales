@@ -1,12 +1,9 @@
 <template>
   <section class="relative py-20 overflow-hidden">
-    <!-- Background -->
-    <img
-      src="https://picsum.photos/seed/scooter3/1600/700"
-      alt="Customer Service Background"
-      class="absolute inset-0 w-full h-full object-cover"
-    />
-    <div class="absolute inset-0 bg-black/60"></div>
+    <!-- Gradient Background -->
+    <div class="absolute inset-0"
+         style="background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);"></div>
+    <div class="absolute inset-0 bg-black/30"></div>
 
     <!-- Content -->
     <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-end">
@@ -15,7 +12,7 @@
           Customer Service
         </h2>
         <p class="text-gray-600 leading-relaxed mb-4">
-          At Hawaiian Style Rentals & Sales, customer satisfaction is at the heart of everything we do. Our expert team is dedicated to providing you with a seamless and enjoyable experience — from your first test ride to every maintenance visit.
+          At Hawaiian Style Rentals &amp; Sales, customer satisfaction is at the heart of everything we do. Our expert team is dedicated to providing you with a seamless and enjoyable experience — from your first test ride to every maintenance visit.
         </p>
         <p class="text-gray-600 leading-relaxed mb-6">
           We carry a full range of Genuine Scooter Company accessories, parts, and gear to keep you riding safely and in style. Whether you need a helmet, a lock, or a tune-up, we have everything you need on the islands.
